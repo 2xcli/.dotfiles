@@ -15,7 +15,7 @@ binds {
     Mod+O hotkey-overlay-title="Run an Application: Obsidian" { spawn "obsidian"; }
     Mod+B hotkey-overlay-title="Run an Application: btop" { spawn "kitty" "btop"; }
     Mod+N hotkey-overlay-title="Run an Application: nvtop" { spawn "kitty" "nvtop"; }
-    Mod+M hotkey-overlay-title="Run an Application: strawberry" { spawn "strawberry"; }
+    Mod+M hotkey-overlay-title="Run an Application: cmus" { spawn-sh "$HOME/.local/bin/toggle-cmus"; }
     Mod+G hotkey-overlay-title="Run an Application: pavucontrol" { spawn "pavucontrol"; }
     Mod+S hotkey-overlay-title="Run an Application: switch device" { spawn-sh "$HOME/.config/waybar/scripts/volume.sh switch_device"; }
     Mod+A hotkey-overlay-title="Run an Application: translate" { spawn-sh "$HOME/.local/bin/translate-pop"; }

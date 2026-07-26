@@ -1,17 +1,17 @@
-background-color = #1c2023dd
+background-color = #271d1fdd
 outline-color = #00000000
-border-color = #88929955
+border-color = #a38a9055
 
-text-color = #dfe3e7ee
-prompt-color = #a8cbe0cc
-input-color = #dfe3e7ff
-placeholder-color = #88929999
+text-color = #f1dee1ee
+prompt-color = #f9b4c6cc
+input-color = #f1dee1ff
+placeholder-color = #a38a9099
 
-default-result-color = #dfe3e7cc
-alternate-result-color = #bec8cfcc
+default-result-color = #f1dee1cc
+alternate-result-color = #dbc0c5cc
 
-selection-color = #c5e9ffff
-selection-background = #2a4d5f66
-selection-match-color = #a8cbe0ff
+selection-color = #ffd6dfff
+selection-background = #6a374766
+selection-match-color = #f9b4c6ff
 
-text-cursor-color = #a8cbe0ff
+text-cursor-color = #f9b4c6ff

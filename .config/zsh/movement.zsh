@@ -136,6 +136,7 @@ ZSH_AUTOSUGGEST_PARTIAL_ACCEPT_WIDGETS+=(smart-forward-word)
 bindkey -e
 bindkey '^[[3~' delete-char
 bindkey '^?' backward-delete-char
+bindkey '5~' backward-delete-char
 bindkey '^[[H' beginning-of-line
 bindkey '^[[F' end-of-line
 bindkey '^[[1~' beginning-of-line

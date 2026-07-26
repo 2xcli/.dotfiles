@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+APP_ID="cmus-popup"
+WINDOWS="$(niri msg --json windows)"
+
+ID="$(jq -r --arg app "$APP_ID" \
+    '.[] | select(.app_id == $app) | .id' <<< "$WINDOWS" | head -n1)"
+
+FOCUSED="$(jq -r --arg app "$APP_ID" \
+    '.[] | select(.app_id == $app) | .is_focused' <<< "$WINDOWS" | head -n1)"
+
+if [[ -n "$ID" ]]; then
+    if [[ "$FOCUSED" == "true" ]]; then
+        niri msg action close-window --id "$ID"
+    else
+        niri msg action focus-window --id "$ID"
+    fi
+else
+    exec kitty \
+        --class "$APP_ID" \
+        --title "CMus" \
+        sh -lc 'exec tmux new-session -A -s cmus cmus'
+fi

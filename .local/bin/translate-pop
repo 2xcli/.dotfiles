@@ -50,7 +50,6 @@ kitty \
   --class translate-popup \
   --name translate-popup \
   --title translate-popup \
-  -o background_opacity=0.94 \
   -o font_size=16 \
   bash -c '
     cleanup() {

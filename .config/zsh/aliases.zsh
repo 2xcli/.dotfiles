@@ -1,9 +1,6 @@
 # aliases
-alias wtd='vim ~/D/OBSDN/sasidium/Личное/Дэйли/wtd_todo.md'
-alias wpx='vim ~/D/sandbox/proxy'
-alias gcom='vim ~/D/sasidium/Дела/Ворк/Проекты\ \(разработка\)/commit.md'
-alias ccodex='codex --profile code'
-alias ecodex='cd ~/D/Dev/daily && codex --profile eday'
+alias c-codex='codex --profile code'
+alias e-codex='cd ~/d/dev/daily && codex --profile eday'
 alias rr='ranger'
 alias ls='eza --icons --group-directories-first'
 alias ll='eza -la --icons --group-directories-first'

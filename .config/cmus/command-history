@@ -1,0 +1,10 @@
+clear -q
+pl-create VanHaven
+bind common <key> filter
+Ally
+2
+5
+help
+3
+q
+add /home/boris/Music/forlisten/

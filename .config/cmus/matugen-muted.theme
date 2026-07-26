@@ -1,0 +1,54 @@
+# Transparent cmus theme for Kitty + Matugen.
+# Keep backgrounds on the terminal default so Kitty opacity/Niri blur stay
+# visible, and use ANSI color names so accents follow the current Matugen palette.
+
+set color_cmdline_attr=default
+set color_cmdline_bg=default
+set color_cmdline_fg=default
+
+set color_error=lightred
+set color_info=lightyellow
+set color_separator=blue
+
+set color_titleline_attr=bold
+set color_titleline_bg=default
+set color_titleline_fg=lightblue
+
+set color_statusline_attr=default
+set color_statusline_bg=default
+set color_statusline_fg=default
+set color_statusline_progress_attr=default
+set color_statusline_progress_bg=default
+set color_statusline_progress_fg=lightblue
+
+set color_trackwin_album_attr=bold
+set color_trackwin_album_bg=default
+set color_trackwin_album_fg=default
+
+set color_win_attr=default
+set color_win_bg=default
+set color_win_fg=default
+set color_win_cur=lightblue
+set color_win_cur_attr=bold
+set color_win_dir=cyan
+
+set color_win_sel_attr=bold
+set color_win_sel_bg=default
+set color_win_sel_fg=lightcyan
+
+set color_cur_sel_attr=default
+set color_win_cur_sel_attr=bold
+set color_win_cur_sel_bg=default
+set color_win_cur_sel_fg=lightblue
+
+set color_win_inactive_sel_attr=bold
+set color_win_inactive_sel_bg=default
+set color_win_inactive_sel_fg=cyan
+
+set color_win_inactive_cur_sel_attr=bold
+set color_win_inactive_cur_sel_bg=default
+set color_win_inactive_cur_sel_fg=cyan
+
+set color_win_title_attr=bold
+set color_win_title_bg=default
+set color_win_title_fg=blue

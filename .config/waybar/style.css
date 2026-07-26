@@ -131,6 +131,7 @@ window#waybar {
 /* Voxtype states */
 
 #custom-voxtype.idle {
+    padding: 0px 6px 0px 0px;
     color: @primary;
     background: transparent;
 }
@@ -150,6 +151,7 @@ window#waybar {
 }
 
 #custom-voxtype.error {
+    padding: 0px 6px 0px 0px;
     color: @error;
     background: transparent;
 }
