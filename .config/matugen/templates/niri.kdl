@@ -2,7 +2,7 @@ layout {
     border {
         active-color "{{colors.secondary.default.hex}}aa"
         inactive-color "{{colors.outline.default.hex}}35"
-        urgent-color "#9b0000"
+        urgent-color "{{colors.error.default.hex}}"
     }
 
     focus-ring {

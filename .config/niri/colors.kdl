@@ -2,7 +2,7 @@ layout {
     border {
         active-color "#f9b4c6aa"
         inactive-color "#a38a9035"
-        urgent-color "#9b0000"
+        urgent-color "#ffb4ab"
     }
 
     focus-ring {
